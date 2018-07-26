@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout\\layout_channelnoview_default.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout\\layout_channelnoview_default.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout\\layout_view_info.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout\\layout_view_info.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_progress.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout\\layout_dialog_progress.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout\\layout_shift2live_default.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout\\layout_shift2live_default.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_default.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout\\layout_dialog_default.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout\\layout_shift_default.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout\\layout_shift_default.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout\\layout_audiotrackview_default.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout\\layout_audiotrackview_default.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_newdefault.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout\\layout_dialog_newdefault.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout\\layout_volumeview_default.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout\\layout_volumeview_default.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout\\layout_popupwindow_default.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout\\layout_popupwindow_default.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout\\demo_dialogview_hf_zero.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout\\demo_dialogview_hf_zero.xml"
+    }
+]

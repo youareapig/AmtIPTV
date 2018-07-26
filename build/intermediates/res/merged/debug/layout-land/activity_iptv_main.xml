@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amt.app.IPTVActivity">
+
+    <!-- webview浏览器、视频控件容器。若要将子控件置顶，
+    使用parentlayout.bringChildToFront(child)。-->
+    <RelativeLayout
+        android:id="@+id/layout_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+    <!--用于存放webview的layout容器。可能会有多个webview存在的情况，
+    需要兼容多webview实例下的层级切换，不能影响到整体的webview-video的层级关系 -->
+    <RelativeLayout
+        android:id="@+id/layout_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+
+    <!-- 页面加载loading控件、频道号、音量条、时移图标等始终处于顶层的控件容器 -->
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- 加载圈布局引用。若要修改样式，新建一个加载圈布局文件，并修改此处的layout属性以引用新的布局文件 -->
+        <include
+            android:id="@+id/include_progress_loading"
+            layout="@layout/layout_loading_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="40dp"
+            android:visibility="invisible" />
+        <include
+            android:id="@+id/include_progress_shift"
+            layout="@layout/layout_shift_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+        <include
+            android:id="@+id/include_progress_shift2live"
+            layout="@layout/layout_shift2live_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+        <include
+            android:id="@+id/include_volumeview"
+            layout="@layout/layout_volumeview_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="invisible"
+            />
+        <include
+            android:id="@+id/include_channelnoview"
+            layout="@layout/layout_channelnoview_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
+        <include
+            android:id="@+id/include_audiotrackview"
+            layout="@layout/layout_audiotrackview_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+    <!-- 认证阶段布局引用。若需要修改认证阶段样式，新建认证布局文件，
+     并修改此处layout属性以引用新的布局文件。认证时显示，认证结束后隐藏Gone掉。 -->
+    <include
+        android:id="@+id/include_auth"
+        layout="@layout/layout_auth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+</RelativeLayout>

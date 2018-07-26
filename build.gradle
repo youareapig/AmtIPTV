@@ -1,0 +1,136 @@
+apply plugin: 'com.android.application'
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        //注意：更换成自己的AS的版本
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.android.smart.terminal.iptv"
+        minSdkVersion 13
+        targetSdkVersion 19
+        versionCode autoVersion("code")
+        versionName autoVersion("name")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    sourceSets{
+        main{
+            java.srcDirs = ['src/main/java','src/main/aidl']
+            resources.srcDirs = ['src/main/java','src/main/aidl']
+            aidl.srcDirs = ['src/main/aidl']
+            res.srcDirs = ['src/main/res']
+            assets.srcDirs = ['src/main/assets']
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
+}
+
+//自动化编译  djf
+//webkit 版本更换
+def webkitVerison="442"
+//地区
+def area="BASE"
+//芯片
+def chipType=webkitVerison
+//厂家
+def manufacturers = "ALL"
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile files('src/main/libs/gson-2.3.1.jar')
+    compile files('src/main/libs/okhttp-3.4.1.jar')
+    compile files('src/main/libs/okio-1.11.0.jar')
+    compile files('src/main/libs/javalib.jar')
+    compile files('src/main/libs/webkit/webkit_'+webkitVerison+'.jar')
+    provided files('src/main/libs/layoutlib.jar')
+}
+task cleanWebcore(type: Delete){
+    delete 'src/main/jniLibs/armeabi/libsywebviewchromium.so'
+}
+task copyWebcore(type: Copy){
+    from 'src/main/webcore/'+webkitVerison+'/libsywebviewchromium.so'
+    into 'src/main/jniLibs/armeabi'
+}
+//自动化编译对应版本的webcore到APK中
+project.afterEvaluate {
+    preBuild.dependsOn cleanWebcore
+    preBuild.dependsOn copyWebcore
+    //以下是解决AS编译APK出现的一个问题。20180112 add by wenzong
+    //问题描述：编译APK后，校验APK里的动态库so，与jniLibs下的so不一致，
+    //原因分析：是编译时期gradle修改了so导致。没查出具体原因，只能想办法规避这个问题
+    //以下的代码可选择性使用。若原本编译APK没有问题，则可以注释掉。
+    packageRelease.doFirst {
+        delete{
+            delete 'build/intermediates/transforms/stripDebugSymbol/release/0/lib/armeabi'
+            delete 'build/intermediates/transforms/stripDebugSymbol/release/folders/2000/1f/main/lib/armeabi/'
+        }
+        copy{
+            from 'src/main/jniLibs/armeabi'
+            into 'build/intermediates/transforms/stripDebugSymbol/release/0/lib/armeabi/'
+            include '*.so'
+        }
+        copy{
+            from 'src/main/jniLibs/armeabi'
+            into 'build/intermediates/transforms/stripDebugSymbol/release/folders/2000/1f/main/lib/armeabi/'
+            include '*.so'
+        }
+    }
+    packageDebug.doFirst {
+        delete{
+            delete 'build/intermediates/transforms/stripDebugSymbol/debug/0/lib/armeabi'
+            delete 'build/intermediates/transforms/stripDebugSymbol/debug/folders/2000/1f/main/lib/armeabi/'
+        }
+        copy{
+            from 'src/main/jniLibs/armeabi'
+            into 'build/intermediates/transforms/stripDebugSymbol/debug/0/lib/armeabi/'
+            include '*.so'
+        }
+        copy{
+            from 'src/main/jniLibs/armeabi'
+            into 'build/intermediates/transforms/stripDebugSymbol/debug/folders/2000/1f/main/lib/armeabi/'
+            include '*.so'
+        }
+    }
+}
+
+//APK名字自动化编译
+android.applicationVariants.all {
+    variant ->
+        variant.outputs.each { output ->
+            output.outputFile = new File(output.outputFile.parent, area + "-" + "IPTVEPG" + "-"
+                    +chipType + "-"+manufacturers+"-DEBUG-"
+                    +autoVersion("name") + ".apk" );
+        }
+}
+
+//版本号自动化编译
+def autoVersion(type) {
+    def code = 1
+    def name ="1.0.0"
+
+    if ("code".equals(type)) {
+        int verisoncode =code + 2
+    } else if ("name".equals(type)) {
+        String today =name +"-"+ new Date().format("yyyyMMdd-HHmm")
+    }
+}

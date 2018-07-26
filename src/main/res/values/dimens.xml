@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--  Dialog模块 承包此地   -->
+    <dimen name="dialog_title">24dp</dimen>
+    <dimen name="dialog_item_name">18dp</dimen>
+    <dimen name="dialog_button">18dp</dimen>
+</resources>

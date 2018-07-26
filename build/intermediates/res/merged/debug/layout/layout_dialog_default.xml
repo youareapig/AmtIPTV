@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/default_dialog_container"
+        android:background="@drawable/background_default_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/dialog_default_title"
+                style="@style/input_dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="title"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:orientation="vertical"  >
+
+
+                <TextView
+                    android:id="@+id/dialog_default_subtitle"
+                    style="@style/input_dialog_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="subtitle"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/dialog_default_content"
+                    style="@style/input_dialog_title"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:text="content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+            <Button
+                android:id="@+id/dialog_default_positive"
+                style="@style/btn_default_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dip"
+                android:text="确定" />
+
+            <Button
+                android:id="@+id/dialog_default_negative"
+                style="@style/btn_default_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dip"
+                android:text="取消" />
+
+            <Button
+                android:id="@+id/dialog_default_neutral"
+                style="@style/btn_default_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

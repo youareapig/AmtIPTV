@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\anim\\loading.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\anim\\loading.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\anim\\popupwindow_out.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\anim\\popupwindow_out.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\anim\\popupwindow_in.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\anim\\popupwindow_in.xml"
+    }
+]

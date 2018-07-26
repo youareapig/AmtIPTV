@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="level">
+        <item>0</item>
+        <item>1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">AmtIptv</string>
+    <string name="auth_itms_checking">80%</string>
+    <string name="auth_itms_failed">80% 注册ITMS失败</string>
+    <string name="auth_netlink_checking">10%</string>
+    <string name="auth_netlink_down">10% 家庭网络障碍</string>
+    <string name="auth_netlink_down_zero">10% 家庭网络障碍(断网线或者线序错)</string>
+    <string name="auth_network_checking">50%</string>
+    <string name="auth_network_down">50% 接入网络故障</string>
+    <string name="auth_network_down_zero">50% 通路故障或AAA认证失败</string>
+    <string name="auth_request_authurl">85%</string>
+    <string name="auth_request_authurl_failed">85% IPTV业务平台认证超时</string>
+    <string name="auth_succesed">100%</string>
+    <string name="chromium_log">Chromium LOG</string>
+    <string name="error_suggest_0010"><Data>用户操作建议：&lt;br />1.检查连接机顶盒的终端（猫或路由器）&lt;br />是否开电&lt;br />2.请联系客服人员并告知页面上显示的错误代码</Data></string>
+    <string name="error_suggest_0013"><Data>用户操作建议：&lt;br />1. 插紧机顶盒与猫之间的网线，关电重启猫5分钟后重启机顶盒尝试；&lt;br />2. 请联系客服人员并告知页面上显示的错误代码；</Data></string>
+    <string name="error_suggest_0201"><Data>用户操作建议：&lt;br />1. 关电重启机顶盒尝试&lt;br />2. 请联系客服人员并告知页面上显示的错误代码</Data></string>
+    <string name="error_suggest_0202"><Data>用户操作建议：&lt;br />1. 关电重启机顶盒尝试&lt;br />2. 请联系客服人员并告知页面上显示的错误代码</Data></string>
+    <string name="error_suggest_datainsufficiency"><Data>用户操作建：&lt;br />1.进入设置完善认证数据&lt;br />2.关机并重新重启</Data></string>
+    <string name="error_suggest_vaildversion"><Data>&lt;br />1.请检查机顶盒型号是否正确&lt;br />2.请联系客成都卓影科技股份有限公司</Data></string>
+    <string name="error_title_0010">网线未连接，请检查网络</string>
+    <string name="error_title_0013">线路问题，导致网络拨号失败</string>
+    <string name="error_title_0025">认证失败，请重新尝试，若问题仍然存在，请联系客服人员</string>
+    <string name="error_title_0201">收不到组播码流</string>
+    <string name="error_title_0202">直播用单播方式收看，收不到直播码流</string>
+    <string name="error_title_datainsufficiency">IPTV认证数据不完整</string>
+    <string name="error_title_vaildversion">该版本未经成都卓影科技股份有限公司授权</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hfdx_error_suggest_0025"><Data>用户操作建议：&lt;br />1. 关电重启机顶盒尝试。&lt;br />2. 请联系客服人员并告知页面上显示的错误代码</Data></string>
+    <string name="hfdx_error_title_10147">iTV业务用户类型不正确</string>
+    <string name="hfdx_zero_contentmsg_06">请输入对应的iTV业务账号并确认</string>
+    <string name="hfdx_zero_tip_06">其他操作建议:&lt;br/>1. 使用翼运维执行扫码操作，等到30秒后在开机&lt;br/>2. 按遥控器“设置键”进入手工设置&lt;br/>3. 请联系客服人员告知页面上显示的错误代码</string>
+    <string name="iptv_log">IPTV LOG(永久生效)</string>
+    <string name="iptv_log_notes">注意：\n\t\t\t打开LOG或者打开保存EPG会严重影响机顶盒性能。正式版本请关闭上述所有功能，遇现网问题需打开上述功能，问题解决后，必须全部关闭！\n\t\t\t若意外出现此页面，请按返回键关闭！</string>
+    <string name="iptv_log_notes_development">\n\t\t\t注意：Chromium LOG和V8 LOG立即生效，其他需要保存后重启生效！ \n\t\t\t</string>
+    <string name="iptv_log_per">IPTV LOG(重启失效)</string>
+    <string name="iptv_ui_audiotrack_jointstereo">联合立体声</string>
+    <string name="iptv_ui_audiotrack_left">左声道</string>
+    <string name="iptv_ui_audiotrack_right">右声道</string>
+    <string name="iptv_ui_audiotrack_stereo">立体声</string>
+    <string name="save_epg">保存EPG</string>
+    <string name="set_zero">跳过零配置(重启生效)</string>
+    <string name="v8_log">V8 LOG</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.smart.terminal.iptvNew"
+    android:versionCode="100"
+    android:versionName="1.0.0"
+    android:sharedUserId="android.uid.system">
+    <!--android:installLocation="internalOnly"-->
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.BIND_INPUT_METHOD" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.MASTER_CLEAR" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MASTER_CLEAR" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INSTALL_LOCATION_PROVIDER" />
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
+
+    <permission
+        android:name="com.amt.iptvdata.write.permisson"
+        android:protectionLevel="normal" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:name="com.amt.app.IptvApp"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+        >
+        <activity
+            android:name="com.amt.app.IPTVActivity"
+            android:alwaysRetainTaskState="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <!-- IPTV作为launcher需打开下面注释-->
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="CTC_IPTV_GUIDE" />
+                <action android:name="com.android.ctc.iptv" />
+                <action android:name="com.android.smart.terminal.iptv" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.amt.utils.DebugActivity">
+            <intent-filter>
+                <action android:name="AmtIptvDebug" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="com.amt.amtdata.dataI.STBContentProvider"
+            android:authorities="stbconfig"
+            android:exported="true"
+            >
+        </provider>
+        <!-- 新版数据模块aidl。支持回调 -->
+        <service android:name="com.amt.amtdata.dataI.AmtDataAIdlService">
+            <intent-filter>
+                <action android:name="com.amt.dataservice" />
+            </intent-filter>
+        </service>
+        <service android:name="com.amt.auth.AuthenticationService">
+            <intent-filter>
+                <action android:name="com.amt.authservice" />
+            </intent-filter>
+        </service>
+        <!-- 老版本数据模块aidl。兼容老版本。 -->
+        <service android:name="com.amt.amtdata.dataI.ServiceCfgService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.smart.terminal.iptv.aidl.ServiceCfg" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.amt.utils.UsbBroadcastReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.hardware.usb.action.USB_STATE"/>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"/>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.amt.utils.IptvResidentService"
+            android:exported="false"
+            >
+        </service>
+
+
+    </application>
+
+</manifest>

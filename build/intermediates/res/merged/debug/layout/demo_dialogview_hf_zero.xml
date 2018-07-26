@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="583dp"
+    android:layout_height="336dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_zero_title"
+        android:layout_width="fill_parent"
+        android:layout_height="86dp"
+        android:background="@drawable/demo_drawable_zero_dialog_title_blue"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/demo_zero_info"
+            android:contentDescription="@null"/>
+
+        <TextView
+            android:id="@+id/scyd_zero_title"
+            android:text="title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#f1f1f1"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/demo_drawable_zero_dialog_content_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/scyd_zero_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:text="摘要"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/rl_ahdx_zero_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="visible" >
+
+            <EditText
+                android:id="@+id/scyd_zero_input"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="64dp"
+                android:layout_marginRight="64dp"
+                android:paddingLeft="10dp"
+                android:textSize="25sp"
+                android:inputType="text"
+                android:background="@drawable/demo_drawable_zero_input" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/scyd_zero_btn"
+            android:layout_width="130dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="28dp"
+            android:text="设置"
+            android:textColor="#ffffff"
+            android:textSize="23sp"
+            android:visibility="visible" 
+            android:background="@drawable/demo_selector_zero_btn"/>
+    </LinearLayout>
+
+</LinearLayout>

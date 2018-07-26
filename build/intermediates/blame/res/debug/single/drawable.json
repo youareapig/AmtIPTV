@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\background_default_dialog_btn_focus.9.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\background_default_dialog_btn_focus.9.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\muteoff.gif",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\muteoff.gif"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_toggle_on.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\btn_toggle_on.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\popwindow_defualt_networkerror.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\popwindow_defualt_networkerror.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\demo_drawable_zero_btn_nofocus.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\demo_drawable_zero_btn_nofocus.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\background_default_dialog_btn_unfocus.9.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\background_default_dialog_btn_unfocus.9.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\auth_progressbar_bg.9.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\auth_progressbar_bg.9.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\demo_btn_sharp_focus.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\demo_btn_sharp_focus.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\auth_progressbar_layer_list.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\auth_progressbar_layer_list.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\drawable_dialog_neutral_btn_selector.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\drawable_dialog_neutral_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_corner.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\shape_corner.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\demo_zero_info.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\demo_zero_info.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\background_debug.9.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\background_debug.9.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_toggle_off_f.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\btn_toggle_off_f.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_toggle.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\bg_toggle.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_toggle_on_f.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\btn_toggle_on_f.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\tvshift.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\tvshift.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\demo_drawable_zero_dialog_content_bg.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\demo_drawable_zero_dialog_content_bg.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\demo_drawable_zero_input.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\demo_drawable_zero_input.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\border_debug.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\border_debug.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\demo_btn_ahdx_zero_confirm_focus.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\demo_btn_ahdx_zero_confirm_focus.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\demo_btn_zero_confirm_focus.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\demo_btn_zero_confirm_focus.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\demo_btn_sharp_unfocus.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\demo_btn_sharp_unfocus.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\drawable_dialog_default_btn_selector.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\drawable_dialog_default_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\demo_selector_zero_btn.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\demo_selector_zero_btn.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\demo_drawable_zero_dialog_title_blue.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\demo_drawable_zero_dialog_title_blue.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\demo_drawable_zero_dialog_title_red.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\demo_drawable_zero_dialog_title_red.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\muteon.gif",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\muteon.gif"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_toggle_off.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\btn_toggle_off.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\background_default_dialog_btn.9.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\background_default_dialog_btn.9.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\demo_drawable_zero_background.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\demo_drawable_zero_background.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\leave_shift.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\leave_shift.png"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_loading.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\progress_loading.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\drawable\\background_default_dialog.9.png",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\drawable\\background_default_dialog.9.png"
+    }
+]

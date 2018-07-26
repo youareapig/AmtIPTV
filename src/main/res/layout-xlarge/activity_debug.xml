@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_debug"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/border_debug"
+        android:gravity="center_horizontal"
+        android:padding="10dp">
+        <!--style="@style/dialog"-->
+        <TextView
+            android:id="@+id/textIptvLogPer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/iptv_log"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <ToggleButton
+            android:id="@+id/IPTV_Per_toggleButton"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="336dp"
+            android:layout_toRightOf="@+id/textIptvLogPer"
+            android:background="@drawable/bg_toggle"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textOff=""
+            android:textOn="" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border_debug"
+        android:gravity="center_horizontal"
+        android:padding="10dp">
+        <!--style="@style/dialog"-->
+        <TextView
+            android:id="@+id/textIptvLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/iptv_log_per"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <ToggleButton
+            android:id="@+id/IPTV_toggleButton"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="336dp"
+            android:layout_toRightOf="@+id/textIptvLog"
+            android:background="@drawable/bg_toggle"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textOff=""
+            android:textOn="" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border_debug"
+        android:gravity="center_horizontal"
+        android:padding="10dp">
+        <!--style="@style/dialog"-->
+        <TextView
+            android:id="@+id/textIptvSaveEPG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/save_epg"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <ToggleButton
+            android:id="@+id/IPTV_SaveEPG_toggleButton"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="450dp"
+            android:layout_toRightOf="@+id/textIptvSaveEPG"
+            android:background="@drawable/bg_toggle"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textOff=""
+            android:textOn="" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border_debug"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+        <!--style="@style/dialog"-->
+        <TextView
+            android:id="@+id/textWebCoreLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/chromium_log"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/WebCoreSpinner"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="525dp"
+            android:entries="@array/level" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border_debug"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+        <!--style="@style/dialog"-->
+        <TextView
+            android:id="@+id/textV8Log"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/v8_log"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/V8Spinner"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="525dp"
+            android:entries="@array/level" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border_debug"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+        <!--style="@style/dialog"-->
+        <TextView
+            android:id="@+id/textZeroSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/set_zero"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <ToggleButton
+            android:id="@+id/zeroSet_toggleButton"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            android:layout_toRightOf="@+id/textZeroSet"
+            android:background="@drawable/bg_toggle"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+        <!--style="@style/dialog"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/iptv_log_notes_development"
+            android:textColor="#FF0000"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

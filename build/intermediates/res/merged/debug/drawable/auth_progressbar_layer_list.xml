@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background">
+        <nine-patch
+            android:dither="true"
+            android:src="@drawable/auth_progressbar_bg" />
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <gradient
+                    android:angle="270"
+                    android:centerY="0.25"
+                    android:endColor="#306C6A"
+                    android:startColor="#4AA3A9"
+                    android:centerColor="#C0FEFB"/>
+
+                <corners android:radius="15dip" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

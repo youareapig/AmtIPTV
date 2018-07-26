@@ -1,0 +1,257 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<keyList>
+    <keymap>
+        <!-- 返回/删除 -->
+        <kname>BACK</kname>
+        <keycode>4</keycode>
+        <iptvkey>8</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 确定键 -->
+        <kname>ENTER</kname>
+        <keycode>23</keycode>
+        <iptvkey>13</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 本地键 -->
+        <kname>LOCAL</kname>
+        <keycode>3</keycode>
+        <iptvkey>287</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 左 -->
+        <kname>LEFT</kname>
+        <keycode>21</keycode>
+        <iptvkey>37</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 上 -->
+        <kname>UP</kname>
+        <keycode>19</keycode>
+        <iptvkey>38</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 右 -->
+        <kname>RIGHT</kname>
+        <keycode>22</keycode>
+        <iptvkey>39</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 下 -->
+        <kname>DOWN</kname>
+        <keycode>20</keycode>
+        <iptvkey>40</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 上页 -->
+        <kname>PAGE_UP</kname>
+        <keycode>92</keycode>
+        <iptvkey>33</iptvkey>
+    </keymap>
+    <keymap>
+        <!--下页 -->
+        <kname>PAGE_DOWN</kname>
+        <keycode>93</keycode>
+        <iptvkey>34</iptvkey>
+    </keymap>
+    <keymap>
+        <kname>0</kname>
+        <keycode>7</keycode>
+        <iptvkey>48</iptvkey>
+    </keymap>
+    <keymap>
+        <kname>1</kname>
+        <keycode>8</keycode>
+        <iptvkey>49</iptvkey>
+    </keymap>
+    <keymap>
+        <kname>2</kname>
+        <keycode>9</keycode>
+        <iptvkey>50</iptvkey>
+    </keymap>
+    <keymap>
+        <kname>3</kname>
+        <keycode>10</keycode>
+        <iptvkey>51</iptvkey>
+    </keymap>
+    <keymap>
+        <kname>4</kname>
+        <keycode>11</keycode>
+        <iptvkey>52</iptvkey>
+    </keymap>
+    <keymap>
+        <kname>5</kname>
+        <keycode>12</keycode>
+        <iptvkey>53</iptvkey>
+    </keymap>
+    <keymap>
+        <kname>6</kname>
+        <keycode>13</keycode>
+        <iptvkey>54</iptvkey>
+    </keymap>
+    <keymap>
+        <kname>7</kname>
+        <keycode>14</keycode>
+        <iptvkey>55</iptvkey>
+    </keymap>
+    <keymap>
+        <kname>8</kname>
+        <keycode>15</keycode>
+        <iptvkey>56</iptvkey>
+    </keymap>
+    <keymap>
+        <kname>9</kname>
+        <keycode>16</keycode>
+        <iptvkey>57</iptvkey>
+    </keymap>
+    <keymap>
+        <!--频道加 -->
+        <kname>CHANNEL_ADD</kname>
+        <keycode>166</keycode>
+        <iptvkey>257</iptvkey>
+    </keymap>
+    <keymap>
+        <!--频道减 -->
+        <kname>CHANNEL_MIN</kname>
+        <keycode>167</keycode>
+        <iptvkey>258</iptvkey>
+    </keymap>
+    <keymap>
+        <!--音量加 -->
+        <kname>VOLUME_ADD</kname>
+        <keycode>24</keycode>
+        <iptvkey>259</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 音量减 -->
+        <kname>VOLUME_MIN</kname>
+        <keycode>25</keycode>
+        <iptvkey>260</iptvkey>
+    </keymap>
+    <!--<keymap>
+        &lt;!&ndash; 静音 &ndash;&gt;
+        <kname>MUTE</kname>
+        <keycode>164</keycode>
+        <iptvkey>261</iptvkey>
+    </keymap>-->
+    <keymap>
+        <!-- 静音 -->
+        <kname>MUTE</kname>
+        <keycode>91</keycode>
+        <iptvkey>261</iptvkey>
+    </keymap>
+
+    <keymap>
+        <!-- 快进 -->
+        <kname>FF</kname>
+        <!-- 2015/07/15 wz 联通集采华为键值规范-->
+        <!--  <keycode>132</keycode>-->
+        <keycode>90</keycode>
+        <iptvkey>264</iptvkey>
+    </keymap>
+
+    <keymap>
+        <!-- 快退 -->
+        <kname>FR</kname>
+        <!-- 2015/07/15 wz 联通集采华为键值规范 -->
+        <!--  <keycode>133</keycode>-->
+        <keycode>89</keycode>
+        <iptvkey>265</iptvkey>
+    </keymap>
+
+    <keymap>
+        <!-- 定位 -->
+        <kname>SEEK</kname>
+        <keycode>131</keycode>
+        <iptvkey>271</iptvkey>
+    </keymap>
+
+    <keymap>
+        <!-- 停止 -->
+        <kname>STOPPLAY</kname>
+        <keycode>86</keycode>
+        <iptvkey>270</iptvkey>
+    </keymap>
+
+    <keymap>
+        <!-- 播放/暂停 -->
+        <kname>PLAYORPAUSE</kname>
+        <keycode>85</keycode>
+        <iptvkey>263</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 首页 -->
+        <kname>HOME</kname>
+        <keycode>181</keycode>
+        <iptvkey>272</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 直播 -->
+        <kname>LIVE</kname>
+        <keycode>183</keycode>
+        <iptvkey>275</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 回看 -->
+        <kname>TVOD</kname>
+        <keycode>184</keycode>
+        <iptvkey>276</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 点播 -->
+        <kname>VOD</kname>
+        <keycode>185</keycode>
+        <iptvkey>277</iptvkey>
+    </keymap>
+    <keymap>
+        <!-- 信息键 -->
+        <kname>INFO</kname>
+        <keycode>186</keycode>
+        <iptvkey>278</iptvkey>
+    </keymap>
+    <!--<keymap>
+        <kname>信息</kname>
+        <keycode>226</keycode>
+        <iptvkey>268</iptvkey>
+    </keymap>-->
+    <keymap>
+        <!-- 频道快速回切 -->
+        <kname>CHANNEL_BACK</kname>
+        <keycode>182</keycode>
+        <iptvkey>280</iptvkey>
+    </keymap>
+    <!--<keymap>
+        <kname>设置</kname>
+        <keycode>176</keycode>
+        <iptvkey>113</iptvkey>
+    </keymap>-->
+    <keymap>
+        <!-- 声道 -->
+        <kname>AUDIO_TRACK</kname>
+        <keycode>209</keycode>
+        <iptvkey>286</iptvkey>
+    </keymap>
+   <!-- <keymap>
+        &lt;!&ndash; 声道 &ndash;&gt;
+        <kname>AUDIO_TRACK</kname>
+        <keycode>209</keycode>
+        <iptvkey>286</iptvkey>
+    </keymap>-->
+    <!--默认焦点在input输入框上按#键时能呼出输入法。#键的EPG键值不能是105（105是以前老版本的键值，对应的ASCII码的字符是i字符）-->
+    <keymap>
+        <kname>#</kname>
+        <keycode>18</keycode>
+        <iptvkey>288</iptvkey>
+    </keymap>
+    <keymap>
+        <kname>*</kname>
+        <keycode>17</keycode>
+        <!--配置成1000 为手动保存EPG的特殊键值。-->
+        <iptvkey>1000</iptvkey>
+    </keymap>
+    <keymap>
+        <kname>互动</kname>
+        <keycode>1190</keycode>
+        <iptvkey>256</iptvkey>
+    </keymap>
+</keyList>

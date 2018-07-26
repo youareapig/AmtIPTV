@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout-land\\layout_loading_default.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout-land\\layout_loading_default.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout-land\\layout_auth.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout-land\\layout_auth.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_debug.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout-land\\activity_debug.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_iptv_main.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout-land\\activity_iptv_main.xml"
+    },
+    {
+        "merged": "D:\\demo\\AmtIPTV\\build\\intermediates\\res\\merged\\debug\\layout-land\\layout_auth_progressbar.xml",
+        "source": "D:\\demo\\AmtIPTV\\src\\main\\res\\layout-land\\layout_auth_progressbar.xml"
+    }
+]
