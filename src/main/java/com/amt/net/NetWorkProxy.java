@@ -96,7 +96,7 @@ public class NetWorkProxy implements NetWorkListener {
             IptvApp.authManager.onNetChanged(AuthManager.NETEVENT_TYPE_TRAFFIC, false);
         }else if(IptvApp.authManager.isAuth) {
             /*IPTVActivity.mDialogManager.showIPTVErrorDialog(AmtDialogManager.ERROR_CODE_0010,
-                    R.string.error_title_10010, R.string.error_suggest_10010);*/
+            R.string.error_title_10010, R.string.error_suggest_10010);*/
             //弹在右下角的小弹窗 djf
             IPTVActivity.mDialogManager.showAmtPopupWindow();
         }

@@ -3,7 +3,7 @@
     package="com.android.smart.terminal.iptv"
     android:sharedUserId="android.uid.system"
     android:versionCode="3"
-    android:versionName="1.0.0-20180726-1004" > <!-- android:installLocation="internalOnly" -->
+    android:versionName="1.0.0-20180807-0934" > <!-- android:installLocation="internalOnly" -->
     <uses-sdk
         android:minSdkVersion="13"
         android:targetSdkVersion="19" />
